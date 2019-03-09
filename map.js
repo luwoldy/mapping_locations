@@ -1,0 +1,1 @@
+let mymap = L.map('mapid').setView([35.214786, -80.860118]);
