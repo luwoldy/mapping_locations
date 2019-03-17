@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_07099669827b477c96da9de5cd24f1f7 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_07099669827b477c96da9de5cd24f1f7" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_07099669827b477c96da9de5cd24f1f7 = L.map(
+        'map_07099669827b477c96da9de5cd24f1f7', {
+        center: [35.5807139, -80.89766689999999],
+        zoom: 10,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_dedf869f1baa4779a32030cd1099c75e = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_07099669827b477c96da9de5cd24f1f7);
+    
+        var marker_9ff1c9274b4d4e06b0f3243294022c2c = L.marker(
+            [35.5807139, -80.89766689999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_07099669827b477c96da9de5cd24f1f7);
+        
+    
+            var popup_d1b69d9841f14bde80b29cf9350e971a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ffcac19dd3774e1fa92f029e30abc566 = $(`<div id="html_ffcac19dd3774e1fa92f029e30abc566" style="width: 100.0%; height: 100.0%;"><i>Iredell Statesville Schools</i></div>`)[0];
+                popup_d1b69d9841f14bde80b29cf9350e971a.setContent(html_ffcac19dd3774e1fa92f029e30abc566);
+            
+
+            marker_9ff1c9274b4d4e06b0f3243294022c2c.bindPopup(popup_d1b69d9841f14bde80b29cf9350e971a)
+            ;
+
+            
+        
+    
+        var marker_22358d6b92b04df38170b28ed057c7e8 = L.marker(
+            [35.59009959999999, -80.8014783],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_07099669827b477c96da9de5cd24f1f7);
+        
+    
+            var popup_32346f0f94b947e495187f6c715cccb8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_aafc613cfbee4e42951e5a6b243f82c0 = $(`<div id="html_aafc613cfbee4e42951e5a6b243f82c0" style="width: 100.0%; height: 100.0%;"><i>Mooresville City Schools Superintendent</i></div>`)[0];
+                popup_32346f0f94b947e495187f6c715cccb8.setContent(html_aafc613cfbee4e42951e5a6b243f82c0);
+            
+
+            marker_22358d6b92b04df38170b28ed057c7e8.bindPopup(popup_32346f0f94b947e495187f6c715cccb8)
+            ;
+
+            
+        
+    
+        var marker_a458e633087c45e186a3a0588f81ed9e = L.marker(
+            [35.4953825, -80.616723],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_07099669827b477c96da9de5cd24f1f7);
+        
+    
+            var popup_f002389e2f3a474589ff169f0ba4b30f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e03b36b4df49411fbbd052c0ed4d0e3e = $(`<div id="html_e03b36b4df49411fbbd052c0ed4d0e3e" style="width: 100.0%; height: 100.0%;"><i>Kannapolis City Schools Central Office</i></div>`)[0];
+                popup_f002389e2f3a474589ff169f0ba4b30f.setContent(html_e03b36b4df49411fbbd052c0ed4d0e3e);
+            
+
+            marker_a458e633087c45e186a3a0588f81ed9e.bindPopup(popup_f002389e2f3a474589ff169f0ba4b30f)
+            ;
+
+            
+        
+    
+        var marker_6fa3a1caf62f473f9db6e3833e1551ec = L.marker(
+            [35.1094325, -80.6788938],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_07099669827b477c96da9de5cd24f1f7);
+        
+    
+            var popup_7a626b27f341439f9f5cd80461a08669 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_54e38a5ab9c94b7486ac77b7481a4527 = $(`<div id="html_54e38a5ab9c94b7486ac77b7481a4527" style="width: 100.0%; height: 100.0%;"><i>Matthews Charter Academy</i></div>`)[0];
+                popup_7a626b27f341439f9f5cd80461a08669.setContent(html_54e38a5ab9c94b7486ac77b7481a4527);
+            
+
+            marker_6fa3a1caf62f473f9db6e3833e1551ec.bindPopup(popup_7a626b27f341439f9f5cd80461a08669)
+            ;
+
+            
+        
+    
+        var marker_062542dd59304a1fa5d654584ff3282a = L.marker(
+            [35.4804254, -80.6041566],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_07099669827b477c96da9de5cd24f1f7);
+        
+    
+            var popup_a7ac85fb5d6a4ec7b93b3bbdf86b4e7a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_17aa04eda8fe4658b812165c4c23c182 = $(`<div id="html_17aa04eda8fe4658b812165c4c23c182" style="width: 100.0%; height: 100.0%;"><i>Forest Park Elementary School</i></div>`)[0];
+                popup_a7ac85fb5d6a4ec7b93b3bbdf86b4e7a.setContent(html_17aa04eda8fe4658b812165c4c23c182);
+            
+
+            marker_062542dd59304a1fa5d654584ff3282a.bindPopup(popup_a7ac85fb5d6a4ec7b93b3bbdf86b4e7a)
+            ;
+
+            
+        
+    
+        var marker_6044396201994c0b90fa949ceca732ef = L.marker(
+            [35.5494584, -80.7825743],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_07099669827b477c96da9de5cd24f1f7);
+        
+    
+            var popup_76f8105cf03643c48ab4ab1c70f2c73f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8360a1fcfbc345a3ac87f4f2612ba8b3 = $(`<div id="html_8360a1fcfbc345a3ac87f4f2612ba8b3" style="width: 100.0%; height: 100.0%;"><i>Rocky River Elementary School</i></div>`)[0];
+                popup_76f8105cf03643c48ab4ab1c70f2c73f.setContent(html_8360a1fcfbc345a3ac87f4f2612ba8b3);
+            
+
+            marker_6044396201994c0b90fa949ceca732ef.bindPopup(popup_76f8105cf03643c48ab4ab1c70f2c73f)
+            ;
+
+            
+        
+    
+        var marker_1eb5af4f2bab429e834e3af141a4a8ee = L.marker(
+            [35.5896714, -80.4622023],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_07099669827b477c96da9de5cd24f1f7);
+        
+    
+            var popup_8bc65bb1cfe4460984f040d1cb806f7c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_aab3cc0adad944118ebf418dd7b16676 = $(`<div id="html_aab3cc0adad944118ebf418dd7b16676" style="width: 100.0%; height: 100.0%;"><i>Faith Elementary School</i></div>`)[0];
+                popup_8bc65bb1cfe4460984f040d1cb806f7c.setContent(html_aab3cc0adad944118ebf418dd7b16676);
+            
+
+            marker_1eb5af4f2bab429e834e3af141a4a8ee.bindPopup(popup_8bc65bb1cfe4460984f040d1cb806f7c)
+            ;
+
+            
+        
+    
+        var marker_2de9ad5ec3e04eafb09e44d2b8bb7622 = L.marker(
+            [35.3858202, -80.7844877],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_07099669827b477c96da9de5cd24f1f7);
+        
+    
+            var popup_d8cc96d0178c4d6889c7ba3f76bce6a0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_541e56273a964e9fb2891f33b8af1895 = $(`<div id="html_541e56273a964e9fb2891f33b8af1895" style="width: 100.0%; height: 100.0%;"><i>Primrose School at Eastfield Village</i></div>`)[0];
+                popup_d8cc96d0178c4d6889c7ba3f76bce6a0.setContent(html_541e56273a964e9fb2891f33b8af1895);
+            
+
+            marker_2de9ad5ec3e04eafb09e44d2b8bb7622.bindPopup(popup_d8cc96d0178c4d6889c7ba3f76bce6a0)
+            ;
+
+            
+        
+    
+        var marker_948dfa4cd7f04355a1859d8f26dfb6fe = L.marker(
+            [35.0929541, -80.8647917],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_07099669827b477c96da9de5cd24f1f7);
+        
+    
+            var popup_7f11171530fa48acb60a74b4fb9712ac = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_97990a2be89745209c34468771848fe0 = $(`<div id="html_97990a2be89745209c34468771848fe0" style="width: 100.0%; height: 100.0%;"><i>Primrose School at Park Crossing</i></div>`)[0];
+                popup_7f11171530fa48acb60a74b4fb9712ac.setContent(html_97990a2be89745209c34468771848fe0);
+            
+
+            marker_948dfa4cd7f04355a1859d8f26dfb6fe.bindPopup(popup_7f11171530fa48acb60a74b4fb9712ac)
+            ;
+
+            
+        
+    
+        var marker_b1b482fc5b2d4823b44073441a8cb28e = L.marker(
+            [35.16128399999999, -80.8721209],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_07099669827b477c96da9de5cd24f1f7);
+        
+    
+            var popup_426f7b4c745a445f8e0297ba2a5e9fa0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_832dfe6787b64daca30616f069466ee2 = $(`<div id="html_832dfe6787b64daca30616f069466ee2" style="width: 100.0%; height: 100.0%;"><i>Charlotte Mecklenburg Schools</i></div>`)[0];
+                popup_426f7b4c745a445f8e0297ba2a5e9fa0.setContent(html_832dfe6787b64daca30616f069466ee2);
+            
+
+            marker_b1b482fc5b2d4823b44073441a8cb28e.bindPopup(popup_426f7b4c745a445f8e0297ba2a5e9fa0)
+            ;
+
+            
+        
+    
+        var marker_cb97a3a7c2c34a63ba5ec7d003861e27 = L.marker(
+            [35.3080846, -80.9284637],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_07099669827b477c96da9de5cd24f1f7);
+        
+    
+            var popup_05496b67b5fe4bffb68a76105b9ec1d7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4cec5cf3f77e470cb8719a60a10f3f06 = $(`<div id="html_4cec5cf3f77e470cb8719a60a10f3f06" style="width: 100.0%; height: 100.0%;"><i>Charlotte-Mecklenburg Schools</i></div>`)[0];
+                popup_05496b67b5fe4bffb68a76105b9ec1d7.setContent(html_4cec5cf3f77e470cb8719a60a10f3f06);
+            
+
+            marker_cb97a3a7c2c34a63ba5ec7d003861e27.bindPopup(popup_05496b67b5fe4bffb68a76105b9ec1d7)
+            ;
+
+            
+        
+    
+        var marker_2f43caa4137f47009a8f4920dffeb747 = L.marker(
+            [35.235664, -80.90318490000001],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_07099669827b477c96da9de5cd24f1f7);
+        
+    
+            var popup_3c360d556e5a45c8a160cbd3afa4449e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1fc04ee934b04931bb7e4d184a140d3d = $(`<div id="html_1fc04ee934b04931bb7e4d184a140d3d" style="width: 100.0%; height: 100.0%;"><i>Charlotte-Mecklenburg Schools</i></div>`)[0];
+                popup_3c360d556e5a45c8a160cbd3afa4449e.setContent(html_1fc04ee934b04931bb7e4d184a140d3d);
+            
+
+            marker_2f43caa4137f47009a8f4920dffeb747.bindPopup(popup_3c360d556e5a45c8a160cbd3afa4449e)
+            ;
+
+            
+        
+    
+        var marker_fb37464641514685b38517921e7eaa2c = L.marker(
+            [35.191149, -80.861738],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_07099669827b477c96da9de5cd24f1f7);
+        
+    
+            var popup_8ac73bdef0ce4ac69e5e236b8bb468fd = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_67c6941ddb35470aabd4009bca0cb12c = $(`<div id="html_67c6941ddb35470aabd4009bca0cb12c" style="width: 100.0%; height: 100.0%;"><i>Charlotte Mecklenburg Schools</i></div>`)[0];
+                popup_8ac73bdef0ce4ac69e5e236b8bb468fd.setContent(html_67c6941ddb35470aabd4009bca0cb12c);
+            
+
+            marker_fb37464641514685b38517921e7eaa2c.bindPopup(popup_8ac73bdef0ce4ac69e5e236b8bb468fd)
+            ;
+
+            
+        
+    
+        var marker_fec36feb8ccd4974979b66de9ad56169 = L.marker(
+            [35.2220526, -80.7252482],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_07099669827b477c96da9de5cd24f1f7);
+        
+    
+            var popup_08f5498ab65d4d2783f01e98ea28e91a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c0f3c9637f5248b090cebe2129248709 = $(`<div id="html_c0f3c9637f5248b090cebe2129248709" style="width: 100.0%; height: 100.0%;"><i>Hickory Grove Christian School</i></div>`)[0];
+                popup_08f5498ab65d4d2783f01e98ea28e91a.setContent(html_c0f3c9637f5248b090cebe2129248709);
+            
+
+            marker_fec36feb8ccd4974979b66de9ad56169.bindPopup(popup_08f5498ab65d4d2783f01e98ea28e91a)
+            ;
+
+            
+        
+    
+        var marker_c8fc1b57ad9548b0929b8f7a51701fbc = L.marker(
+            [35.567026, -80.585715],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_07099669827b477c96da9de5cd24f1f7);
+        
+    
+            var popup_59d022d4dfa14f4d840aa176b545990a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1639c72651e54470956e7d420ad9fb3f = $(`<div id="html_1639c72651e54470956e7d420ad9fb3f" style="width: 100.0%; height: 100.0%;"><i>China Grove Elementary School</i></div>`)[0];
+                popup_59d022d4dfa14f4d840aa176b545990a.setContent(html_1639c72651e54470956e7d420ad9fb3f);
+            
+
+            marker_c8fc1b57ad9548b0929b8f7a51701fbc.bindPopup(popup_59d022d4dfa14f4d840aa176b545990a)
+            ;
+
+            
+        
+    
+        var marker_064d4403e5f74519b94d882bc1cfe12d = L.marker(
+            [35.5531794, -80.7831185],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_07099669827b477c96da9de5cd24f1f7);
+        
+    
+            var popup_e7b4b7dd29f54f0fb94dcc5d74d50dc0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a6996f581f254600b7c6a6a5193d8934 = $(`<div id="html_a6996f581f254600b7c6a6a5193d8934" style="width: 100.0%; height: 100.0%;"><i>Mooresville Intermediate School</i></div>`)[0];
+                popup_e7b4b7dd29f54f0fb94dcc5d74d50dc0.setContent(html_a6996f581f254600b7c6a6a5193d8934);
+            
+
+            marker_064d4403e5f74519b94d882bc1cfe12d.bindPopup(popup_e7b4b7dd29f54f0fb94dcc5d74d50dc0)
+            ;
+
+            
+        
+    
+        var marker_7081331b513b47e9ba4c6b2a1fdad418 = L.marker(
+            [35.486528, -80.9978211],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_07099669827b477c96da9de5cd24f1f7);
+        
+    
+            var popup_b9b31af8503c4bd8aec86ee7b259f1a0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b5bd92af9555467dbc1a39b18865f1d8 = $(`<div id="html_b5bd92af9555467dbc1a39b18865f1d8" style="width: 100.0%; height: 100.0%;"><i>Lincoln Charter School</i></div>`)[0];
+                popup_b9b31af8503c4bd8aec86ee7b259f1a0.setContent(html_b5bd92af9555467dbc1a39b18865f1d8);
+            
+
+            marker_7081331b513b47e9ba4c6b2a1fdad418.bindPopup(popup_b9b31af8503c4bd8aec86ee7b259f1a0)
+            ;
+
+            
+        
+    
+        var marker_8557bca0208344bd904924df1d5e2774 = L.marker(
+            [35.6155281, -80.5743473],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_07099669827b477c96da9de5cd24f1f7);
+        
+    
+            var popup_06d000b557024f0ab7291c66b670df7d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0d3ea81990ef48f68c63a99b04b30d1b = $(`<div id="html_0d3ea81990ef48f68c63a99b04b30d1b" style="width: 100.0%; height: 100.0%;"><i>Knollwood Elementary School</i></div>`)[0];
+                popup_06d000b557024f0ab7291c66b670df7d.setContent(html_0d3ea81990ef48f68c63a99b04b30d1b);
+            
+
+            marker_8557bca0208344bd904924df1d5e2774.bindPopup(popup_06d000b557024f0ab7291c66b670df7d)
+            ;
+
+            
+        
+    
+        var marker_839cb0e335c549c5aadf38bfd1a28fc0 = L.marker(
+            [35.3433111, -80.6466971],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_07099669827b477c96da9de5cd24f1f7);
+        
+    
+            var popup_758c8a1477284acbbab38850add73f92 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7330e6d1681140319f8a7e6b8448013c = $(`<div id="html_7330e6d1681140319f8a7e6b8448013c" style="width: 100.0%; height: 100.0%;"><i>Pitts School Road Elementary School</i></div>`)[0];
+                popup_758c8a1477284acbbab38850add73f92.setContent(html_7330e6d1681140319f8a7e6b8448013c);
+            
+
+            marker_839cb0e335c549c5aadf38bfd1a28fc0.bindPopup(popup_758c8a1477284acbbab38850add73f92)
+            ;
+
+            
+        
+    
+        var marker_0bf117669ba544f3a3ec07cc63d02912 = L.marker(
+            [35.1406477, -80.76926999999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_07099669827b477c96da9de5cd24f1f7);
+        
+    
+            var popup_4a159a8ce733467483ca67e6a4de4556 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7f5815b3edb847aab758f709c505fb17 = $(`<div id="html_7f5815b3edb847aab758f709c505fb17" style="width: 100.0%; height: 100.0%;"><i>Charlotte Christian School</i></div>`)[0];
+                popup_4a159a8ce733467483ca67e6a4de4556.setContent(html_7f5815b3edb847aab758f709c505fb17);
+            
+
+            marker_0bf117669ba544f3a3ec07cc63d02912.bindPopup(popup_4a159a8ce733467483ca67e6a4de4556)
+            ;
+
+            
+        
+</script>
