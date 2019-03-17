@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_06e6df1202d349d6a2959676de3b588c {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_06e6df1202d349d6a2959676de3b588c" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_06e6df1202d349d6a2959676de3b588c = L.map(
+        'map_06e6df1202d349d6a2959676de3b588c', {
+        center: [35.2121739, -80.82441349999999],
+        zoom: 10,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_c5e821688a8c417f80b5a7b7b8f5fd8b = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_06e6df1202d349d6a2959676de3b588c);
+    
+        var marker_1882bd2bd37742e3a8708aefab0ef3d6 = L.marker(
+            [35.2121739, -80.82441349999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_06e6df1202d349d6a2959676de3b588c);
+        
+    
+            var popup_b2236b1217244dc3bee80824875e412e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_fa24b99c44654f598a531f461874e99c = $(`<div id="html_fa24b99c44654f598a531f461874e99c" style="width: 100.0%; height: 100.0%;"><i>Novant Health Presbyterian Medical Center</i></div>`)[0];
+                popup_b2236b1217244dc3bee80824875e412e.setContent(html_fa24b99c44654f598a531f461874e99c);
+            
+
+            marker_1882bd2bd37742e3a8708aefab0ef3d6.bindPopup(popup_b2236b1217244dc3bee80824875e412e)
+            ;
+
+            
+        
+    
+        var marker_6bb2de4b28da455c86ddb8e7d30104e1 = L.marker(
+            [35.490295, -81.203192],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_06e6df1202d349d6a2959676de3b588c);
+        
+    
+            var popup_fb193caea35a40c7aa3a4792e9ecd6fb = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2738dcbc0c5f4135bbc28c8a738c0da3 = $(`<div id="html_2738dcbc0c5f4135bbc28c8a738c0da3" style="width: 100.0%; height: 100.0%;"><i>Carolinas Medical Center-Lincoln Collins Beverly C</i></div>`)[0];
+                popup_fb193caea35a40c7aa3a4792e9ecd6fb.setContent(html_2738dcbc0c5f4135bbc28c8a738c0da3);
+            
+
+            marker_6bb2de4b28da455c86ddb8e7d30104e1.bindPopup(popup_fb193caea35a40c7aa3a4792e9ecd6fb)
+            ;
+
+            
+        
+    
+        var marker_0e5697bb75f84d7298f19123882f24f1 = L.marker(
+            [34.9639819, -80.76389789999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_06e6df1202d349d6a2959676de3b588c);
+        
+    
+            var popup_15457a9dbbc346508aeaf1b21153bf0c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2b126bdd543d4b6a8f632dfeca183744 = $(`<div id="html_2b126bdd543d4b6a8f632dfeca183744" style="width: 100.0%; height: 100.0%;"><i>Carolinas HealthCare System Waxhaw</i></div>`)[0];
+                popup_15457a9dbbc346508aeaf1b21153bf0c.setContent(html_2b126bdd543d4b6a8f632dfeca183744);
+            
+
+            marker_0e5697bb75f84d7298f19123882f24f1.bindPopup(popup_15457a9dbbc346508aeaf1b21153bf0c)
+            ;
+
+            
+        
+    
+        var marker_48434c86c8324646b0f567ac330e9132 = L.marker(
+            [35.549386, -80.85410999999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_06e6df1202d349d6a2959676de3b588c);
+        
+    
+            var popup_0431ce0b571d495a9f4736a064c5483f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_23535b9f0c15436e9aae3080bdd3fe2b = $(`<div id="html_23535b9f0c15436e9aae3080bdd3fe2b" style="width: 100.0%; height: 100.0%;"><i>Lake Norman Regional Medical Center</i></div>`)[0];
+                popup_0431ce0b571d495a9f4736a064c5483f.setContent(html_23535b9f0c15436e9aae3080bdd3fe2b);
+            
+
+            marker_48434c86c8324646b0f567ac330e9132.bindPopup(popup_0431ce0b571d495a9f4736a064c5483f)
+            ;
+
+            
+        
+    
+        var marker_851c4fc80c714e1683df4e78552ec1bf = L.marker(
+            [35.4375454, -80.6019365],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_06e6df1202d349d6a2959676de3b588c);
+        
+    
+            var popup_c19ad3ae3dec4f76b18fa48270aa1b6f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b8dd9525208d460b842cfa9f01f1261c = $(`<div id="html_b8dd9525208d460b842cfa9f01f1261c" style="width: 100.0%; height: 100.0%;"><i>Carolinas HealthCare System NorthEast</i></div>`)[0];
+                popup_c19ad3ae3dec4f76b18fa48270aa1b6f.setContent(html_b8dd9525208d460b842cfa9f01f1261c);
+            
+
+            marker_851c4fc80c714e1683df4e78552ec1bf.bindPopup(popup_c19ad3ae3dec4f76b18fa48270aa1b6f)
+            ;
+
+            
+        
+    
+        var marker_8055050016614676b0dd2aadac8dbcbd = L.marker(
+            [34.9686997, -80.5276097],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_06e6df1202d349d6a2959676de3b588c);
+        
+    
+            var popup_68e40cc963ec42b5ba90195b33defbcb = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_17957083589a40048d4c34e36372efce = $(`<div id="html_17957083589a40048d4c34e36372efce" style="width: 100.0%; height: 100.0%;"><i>Carolinas Medical Center</i></div>`)[0];
+                popup_68e40cc963ec42b5ba90195b33defbcb.setContent(html_17957083589a40048d4c34e36372efce);
+            
+
+            marker_8055050016614676b0dd2aadac8dbcbd.bindPopup(popup_68e40cc963ec42b5ba90195b33defbcb)
+            ;
+
+            
+        
+    
+        var marker_7d4e49fd9da24bd1b66723c3dded7512 = L.marker(
+            [35.3491903, -80.8430118],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_06e6df1202d349d6a2959676de3b588c);
+        
+    
+            var popup_49c09803fa354b42b3dc1fafcb862157 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a51619f1d14e4a238b53062884fa9435 = $(`<div id="html_a51619f1d14e4a238b53062884fa9435" style="width: 100.0%; height: 100.0%;"><i>Carolinas Healthcare System</i></div>`)[0];
+                popup_49c09803fa354b42b3dc1fafcb862157.setContent(html_a51619f1d14e4a238b53062884fa9435);
+            
+
+            marker_7d4e49fd9da24bd1b66723c3dded7512.bindPopup(popup_49c09803fa354b42b3dc1fafcb862157)
+            ;
+
+            
+        
+    
+        var marker_89ce766cc33343ba819d13f6971c3f49 = L.marker(
+            [35.2708972, -81.14060090000001],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_06e6df1202d349d6a2959676de3b588c);
+        
+    
+            var popup_40e4e1e5c7d9468eb566dce93b6a8e39 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b5302b7362f642838cb9f02ca60c6364 = $(`<div id="html_b5302b7362f642838cb9f02ca60c6364" style="width: 100.0%; height: 100.0%;"><i>BSA Caromont Health</i></div>`)[0];
+                popup_40e4e1e5c7d9468eb566dce93b6a8e39.setContent(html_b5302b7362f642838cb9f02ca60c6364);
+            
+
+            marker_89ce766cc33343ba819d13f6971c3f49.bindPopup(popup_40e4e1e5c7d9468eb566dce93b6a8e39)
+            ;
+
+            
+        
+    
+        var marker_d22f4b0ee4224573849ca96775a6fd9a = L.marker(
+            [35.120014, -80.7140524],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_06e6df1202d349d6a2959676de3b588c);
+        
+    
+            var popup_065da37a4f7740c0a987ef9fadaf8eb6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_50c810b8d41d42bb83906197ea774490 = $(`<div id="html_50c810b8d41d42bb83906197ea774490" style="width: 100.0%; height: 100.0%;"><i>Novant Health Matthews Medical Center</i></div>`)[0];
+                popup_065da37a4f7740c0a987ef9fadaf8eb6.setContent(html_50c810b8d41d42bb83906197ea774490);
+            
+
+            marker_d22f4b0ee4224573849ca96775a6fd9a.bindPopup(popup_065da37a4f7740c0a987ef9fadaf8eb6)
+            ;
+
+            
+        
+    
+        var marker_02b7bb8d7c814db1be541ee1902421c7 = L.marker(
+            [35.0921987, -80.8722339],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_06e6df1202d349d6a2959676de3b588c);
+        
+    
+            var popup_cbfcd6cec4e34241b827a02b885bde52 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ea509a189ffe448d813de53f927c63c9 = $(`<div id="html_ea509a189ffe448d813de53f927c63c9" style="width: 100.0%; height: 100.0%;"><i>Atrium Health Pineville</i></div>`)[0];
+                popup_cbfcd6cec4e34241b827a02b885bde52.setContent(html_ea509a189ffe448d813de53f927c63c9);
+            
+
+            marker_02b7bb8d7c814db1be541ee1902421c7.bindPopup(popup_cbfcd6cec4e34241b827a02b885bde52)
+            ;
+
+            
+        
+    
+        var marker_ecc7e18b1ae746f590820772e9466546 = L.marker(
+            [35.2457928, -80.8961868],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_06e6df1202d349d6a2959676de3b588c);
+        
+    
+            var popup_c0abbf4407e74909b899215290e6a8cf = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3ad6406b4ed948e5be3414773346d4ef = $(`<div id="html_3ad6406b4ed948e5be3414773346d4ef" style="width: 100.0%; height: 100.0%;"><i>Concentra</i></div>`)[0];
+                popup_c0abbf4407e74909b899215290e6a8cf.setContent(html_3ad6406b4ed948e5be3414773346d4ef);
+            
+
+            marker_ecc7e18b1ae746f590820772e9466546.bindPopup(popup_c0abbf4407e74909b899215290e6a8cf)
+            ;
+
+            
+        
+    
+        var marker_aac43824772d41eabb616f5a7599e1c2 = L.marker(
+            [35.2231689, -80.9228342],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_06e6df1202d349d6a2959676de3b588c);
+        
+    
+            var popup_40fa2335d3444087908d123fb6abc826 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3685d3467aa146b8a63a94e90ab290b6 = $(`<div id="html_3685d3467aa146b8a63a94e90ab290b6" style="width: 100.0%; height: 100.0%;"><i>Heather Shiflett</i></div>`)[0];
+                popup_40fa2335d3444087908d123fb6abc826.setContent(html_3685d3467aa146b8a63a94e90ab290b6);
+            
+
+            marker_aac43824772d41eabb616f5a7599e1c2.bindPopup(popup_40fa2335d3444087908d123fb6abc826)
+            ;
+
+            
+        
+    
+        var marker_4a996f4b46ce4ab7879c3f1059445634 = L.marker(
+            [35.4699183, -81.24033109999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_06e6df1202d349d6a2959676de3b588c);
+        
+    
+            var popup_56813c03ec2b4db2b0f6c2d8f3f2a42a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_cc00c09e086748c581d2c429c8307fca = $(`<div id="html_cc00c09e086748c581d2c429c8307fca" style="width: 100.0%; height: 100.0%;"><i>Carolinas HealthCare System</i></div>`)[0];
+                popup_56813c03ec2b4db2b0f6c2d8f3f2a42a.setContent(html_cc00c09e086748c581d2c429c8307fca);
+            
+
+            marker_4a996f4b46ce4ab7879c3f1059445634.bindPopup(popup_56813c03ec2b4db2b0f6c2d8f3f2a42a)
+            ;
+
+            
+        
+    
+        var marker_df4f58684c4d4a9280a6f96304745334 = L.marker(
+            [35.3190003, -80.7766015],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_06e6df1202d349d6a2959676de3b588c);
+        
+    
+            var popup_8d6fa5887d1c451db32a717e1a50e958 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_edff5eba2e60477b9f858374fd2b2543 = $(`<div id="html_edff5eba2e60477b9f858374fd2b2543" style="width: 100.0%; height: 100.0%;"><i>Novant Health</i></div>`)[0];
+                popup_8d6fa5887d1c451db32a717e1a50e958.setContent(html_edff5eba2e60477b9f858374fd2b2543);
+            
+
+            marker_df4f58684c4d4a9280a6f96304745334.bindPopup(popup_8d6fa5887d1c451db32a717e1a50e958)
+            ;
+
+            
+        
+    
+        var marker_2e66e7a77cd8458dae26d9e0c762f1df = L.marker(
+            [35.21062810000001, -80.82142910000002],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_06e6df1202d349d6a2959676de3b588c);
+        
+    
+            var popup_00dc31c8010e480c9c9d3ff8ec2957ff = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_367d3ac31c9748349278f283de2f2a24 = $(`<div id="html_367d3ac31c9748349278f283de2f2a24" style="width: 100.0%; height: 100.0%;"><i>Carolinas Medical Center-Mercy</i></div>`)[0];
+                popup_00dc31c8010e480c9c9d3ff8ec2957ff.setContent(html_367d3ac31c9748349278f283de2f2a24);
+            
+
+            marker_2e66e7a77cd8458dae26d9e0c762f1df.bindPopup(popup_00dc31c8010e480c9c9d3ff8ec2957ff)
+            ;
+
+            
+        
+    
+        var marker_d29f77a1a23143f2ac38531fac33757e = L.marker(
+            [35.3058456, -80.7470211],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_06e6df1202d349d6a2959676de3b588c);
+        
+    
+            var popup_16cb0751ca794607ace5e891a3504f1c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_464812c03eaf4933a4bc91667c3be598 = $(`<div id="html_464812c03eaf4933a4bc91667c3be598" style="width: 100.0%; height: 100.0%;"><i>Atrium Health University City</i></div>`)[0];
+                popup_16cb0751ca794607ace5e891a3504f1c.setContent(html_464812c03eaf4933a4bc91667c3be598);
+            
+
+            marker_d29f77a1a23143f2ac38531fac33757e.bindPopup(popup_16cb0751ca794607ace5e891a3504f1c)
+            ;
+
+            
+        
+    
+        var marker_6f54f9a6f74a44ca94bea2a2b55cbfca = L.marker(
+            [35.093991, -80.872816],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_06e6df1202d349d6a2959676de3b588c);
+        
+    
+            var popup_da506997c2924d7f82090478f7a247f2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b2c4f11a8623411690eb512d7d5cc86a = $(`<div id="html_b2c4f11a8623411690eb512d7d5cc86a" style="width: 100.0%; height: 100.0%;"><i>Carolinas ContinueCARE Hospital at Pineville</i></div>`)[0];
+                popup_da506997c2924d7f82090478f7a247f2.setContent(html_b2c4f11a8623411690eb512d7d5cc86a);
+            
+
+            marker_6f54f9a6f74a44ca94bea2a2b55cbfca.bindPopup(popup_da506997c2924d7f82090478f7a247f2)
+            ;
+
+            
+        
+    
+        var marker_3296250c22494630bf45c8d35a7a154e = L.marker(
+            [35.0928211, -80.87017519999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_06e6df1202d349d6a2959676de3b588c);
+        
+    
+            var popup_cf44217d58814c1ea22438f91c97fce4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a539c4c582f94689a1e382fb2092705a = $(`<div id="html_a539c4c582f94689a1e382fb2092705a" style="width: 100.0%; height: 100.0%;"><i>Hospital</i></div>`)[0];
+                popup_cf44217d58814c1ea22438f91c97fce4.setContent(html_a539c4c582f94689a1e382fb2092705a);
+            
+
+            marker_3296250c22494630bf45c8d35a7a154e.bindPopup(popup_cf44217d58814c1ea22438f91c97fce4)
+            ;
+
+            
+        
+    
+        var marker_a35ac7a69f2c4671b34cce3630c25b26 = L.marker(
+            [34.9572287, -81.0505183],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_06e6df1202d349d6a2959676de3b588c);
+        
+    
+            var popup_7bb351d5e3a94f4a83dfc67f01dce47d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9635e97e085c4bb8b897b19dd7135be9 = $(`<div id="html_9635e97e085c4bb8b897b19dd7135be9" style="width: 100.0%; height: 100.0%;"><i>The Heart Center at Piedmont Medical Center</i></div>`)[0];
+                popup_7bb351d5e3a94f4a83dfc67f01dce47d.setContent(html_9635e97e085c4bb8b897b19dd7135be9);
+            
+
+            marker_a35ac7a69f2c4671b34cce3630c25b26.bindPopup(popup_7bb351d5e3a94f4a83dfc67f01dce47d)
+            ;
+
+            
+        
+    
+        var marker_65e41c525b08448187d81a7983656991 = L.marker(
+            [35.3066279, -80.7473505],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_06e6df1202d349d6a2959676de3b588c);
+        
+    
+            var popup_2383ff0a1e6f4b718b31bb26bf81dd30 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7d0c968257a54186b98862461a1fd67f = $(`<div id="html_7d0c968257a54186b98862461a1fd67f" style="width: 100.0%; height: 100.0%;"><i>Carolinas ContinueCARE Hospital at University</i></div>`)[0];
+                popup_2383ff0a1e6f4b718b31bb26bf81dd30.setContent(html_7d0c968257a54186b98862461a1fd67f);
+            
+
+            marker_65e41c525b08448187d81a7983656991.bindPopup(popup_2383ff0a1e6f4b718b31bb26bf81dd30)
+            ;
+
+            
+        
+</script>
